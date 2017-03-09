@@ -1,0 +1,55 @@
+    <h2 class="text-left" id="heading2"><b>Guest</b></h2>
+    <div class="container">
+    <h3 class="text-center" id="heading3"><b>Make a Reservation:</b></h3>
+        <form role="form" data-ng-submit="guestVm.addCust()">
+         <div class="form-group">
+             <div class="col-sm-6">
+             <label for="usrfirstname" id="fnam" style="color:white">First Name:</label>
+             <input type="text" class="form-control" size="6" id="fn" data-ng-model="guestVm.newCust.firstName">
+         </div>
+         <div class="form-group">
+             <div class="col-sm-6">
+             <label for="usrlastname" id="lnam" style="color:white">Last Name:</label>
+             <input type="text" class="form-control" size="6" id="ln" data-ng-model="guestVm.newCust.lastName">
+         </div>
+         <div class="form-group">
+                <div class="col-sm-6">
+                <label for="em" id="email" style="color:white">Email:</label>
+                <input type="text" class="form-control" size="7" id="em" data-ng-model="guestVm.newCust.email">
+                </div>
+            </div>
+         <div class="form-group">
+             <div class="col-sm-6">
+             <label for="ph" id="phno" style="color:white">Phone Number:</label>
+             <input type="text" class="form-control" size="6" id="phn" data-ng-model="guestVm.newCust.phoneNumber">
+             </div>
+         </div>
+            
+            <div class="form-group">
+                <div class="col-sm-6">
+                <label for="pple" id="no" style="color:white">Number of people:</label>
+                <input type="text" class="form-control" size="7" id="pple" data-ng-model="guestVm.newCust.total">
+                </div>
+            </div>
+             <div class="form-group">
+                <div class="col-sm-6">
+                <label for="Date" id="dt" style="color:white">Date and Time</label>
+                <input type="datetime" class="form-control" id="Date" placeholder="YYYY-MM-DD Secs:Mins:Hrs" data-ng-model="guestVm.newCust.date">
+                </div>
+            <div class="form-group">
+                 <div class="col-sm-1">
+                     <br>
+                 <button type="submit" style="color:white" class="btn btn-default" id ="button2">Reserve</button>
+             </div>
+                 </div>
+             <div class="form-group">
+                 <div class="col-sm-1">
+                     <br>
+                     <button type="submit" style="color:white" class="btn btn-default" id ="button3">CancelReservation</button>
+                 </div>
+             </div>
+</form>
+
+
+
+ 

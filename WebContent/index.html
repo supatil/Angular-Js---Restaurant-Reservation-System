@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html data-ng-app="restaurant" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Welcome to the restaurant</title>
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-default" style="background-color: grey">
+        <div class="container">
+            <div class="navbar-header">
+               <h1>Welcome to the restaurant</h1>
+                </div>
+                <ul class="nav navbar-nav navbar-right" id="one">
+                <li><a href="#/Home"><span class="glyphicon glyphicon-home">Home</span></a></li>
+                <li><a href="#/Guest">Guest</a></li> 
+                <li><a href="#/Owner">Owner</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<section data-ng-view>
+  
+</section>
+
+<div class="navbar navbar-default navbar-fixed-bottom" style="background-color: grey">
+    <div class="container">
+                  <div class="col-sm-6">
+                <p id="footer1"><b>Address Information:</b><br>
+                8356 Neilston Crossing Drive,<br>
+                zip code:46202</p>
+                  </div>
+              <div class="col-sm-6">
+                  <p id="footer2"><b>Contact Information:</b><br>
+              Phone number:317-269-270<br>
+              Email id:surabhi@gmail.com</p></div>
+</div>
+    </div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+<script src="https://code.angularjs.org/1.4.6/angular-route.min.js"></script>
+<script src="scripts/app.js"></script>
+<script src="Controllers/home-controller.js"></script>
+<script src="Controllers/guest-controller.js"></script>
+<script src="Controllers/owner-controller.js"></script>
+</body>
+</html>

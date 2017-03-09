@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html data-ng-app="Myrestaurant" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to the restaurant-Owner LoggedIn Page</title>
+</head>
+<body style="background: black">
+<header>
+    <nav class="navbar navbar-default" style="background-color: grey">
+        <div class="container">
+            <div class="navbar-header">
+                <h1>Welcome to the restaurant</h1>
+            </div>
+            <ul class="nav navbar-nav navbar-right" id="one">
+                <li><a href="OwnerLoginPage.html">Signout</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <h2 class="text-left" id="heading2"><b>Owner</b></h2>
+    <span class="container">
+        <ul class="nav nav-pills" id="tab1">
+            <li><a href="#/Reservations" class="active">Reservations</a></li>
+            <li><a href="#/Cancel-Edit Reservation">Cancel/Edit Reservation</a></li>
+            <li><a href="#/Seating Arrangement">Seating Arrangement</a></li>
+            <li><a href="#/Profile Settings">Profile Settings</a></li>
+        </ul>
+     </span>
+     
+
+<section data-ng-view>
+    
+</section>
+
+   
+    
+    
+    
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+<script src="https://code.angularjs.org/1.4.6/angular-route.min.js"></script>
+<script src="scripts/app1.js"></script>
+<script src="Controllers/reservations-controller.js"></script>
+<script src="Controllers/canceleditreservation-controller.js"></</script>
+</body>
+</html>

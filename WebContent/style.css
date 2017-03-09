@@ -1,0 +1,43 @@
+#one a{
+    color:black;
+}
+body{
+    background-image: url("background-restaurant.jpg");
+    height:100%;
+}
+h2,h3, p{
+    color:white;
+}
+#arct1, #arct2, #button, #arct3, #button1,#fnam,#lnam,#ph, #em, #pple, #Date, #Time, #button2, #phno, #nam, #email, #phno, #dt, #tim, #button3, #Link, #pwd,#tab1,#tab3,#1{
+    color:white;
+}
+#button, #button1,#button2, #button3{
+    background-color: grey;
+}
+#text-left{
+    color:white;
+}
+th,tr,td{
+    color:white;
+}
+.footer{
+
+    background-color: grey;
+}
+#footer1, #footer2{
+    color:black;
+}
+
+.glyphicon{
+	cursor:pointer;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7{
+	border:1px solid white;
+	float:left;
+	margin-left:50px;
+	margin-bottom:30 px;
+	height:200px;
+	width:150px;
+}
+
